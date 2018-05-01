@@ -39,8 +39,8 @@
                              1 goal field)
 
 7. Attribute Information:
-     0. url:                           URL of the article
-     1. timedelta:                     Days between the article publication and
+     *0. url:                           URL of the article
+     *1. timedelta:                     Days between the article publication and
                                        the dataset acquisition
      2. n_tokens_title:                Number of words in the title
      3. n_tokens_content:              Number of words in the content
@@ -56,19 +56,19 @@
     11. average_token_length:          Average length of the words in the
                                        content
     12. num_keywords:                  Number of keywords in the metadata
-    13. data_channel_is_lifestyle:     Is data channel 'Lifestyle'?
-    14. data_channel_is_entertainment: Is data channel 'Entertainment'?
-    15. data_channel_is_bus:           Is data channel 'Business'?
-    16. data_channel_is_socmed:        Is data channel 'Social Media'?
-    17. data_channel_is_tech:          Is data channel 'Tech'?
-    18. data_channel_is_world:         Is data channel 'World'?
-    19. kw_min_min:                    Worst keyword (min. shares)
+    *13. data_channel_is_lifestyle:     Is data channel 'Lifestyle'?
+    *14. data_channel_is_entertainment: Is data channel 'Entertainment'?
+    *15. data_channel_is_bus:           Is data channel 'Business'?
+    *16. data_channel_is_socmed:        Is data channel 'Social Media'?
+    *17. data_channel_is_tech:          Is data channel 'Tech'?
+    *18. data_channel_is_world:         Is data channel 'World'?
+    *19. kw_min_min:                    Worst keyword (min. shares)
     20. kw_max_min:                    Worst keyword (max. shares)
-    21. kw_avg_min:                    Worst keyword (avg. shares)
+    *21. kw_avg_min:                    Worst keyword (avg. shares)
     22. kw_min_max:                    Best keyword (min. shares)
     23. kw_max_max:                    Best keyword (max. shares)
     24. kw_avg_max:                    Best keyword (avg. shares)
-    25. kw_min_avg:                    Avg. keyword (min. shares)
+    *25. kw_min_avg:                    Avg. keyword (min. shares)
     26. kw_max_avg:                    Avg. keyword (max. shares)
     27. kw_avg_avg:                    Avg. keyword (avg. shares)
     28. self_reference_min_shares:     Min. shares of referenced articles in
@@ -84,7 +84,7 @@
     35. weekday_is_friday:             Was the article published on a Friday?
     36. weekday_is_saturday:           Was the article published on a Saturday?
     37. weekday_is_sunday:             Was the article published on a Sunday?
-    38. is_weekend:                    Was the article published on the weekend?
+    *38. is_weekend:                    Was the article published on the weekend?
     39. LDA_00:                        Closeness to LDA topic 0
     40. LDA_01:                        Closeness to LDA topic 1
     41. LDA_02:                        Closeness to LDA topic 2
